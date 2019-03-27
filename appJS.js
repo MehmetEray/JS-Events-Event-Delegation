@@ -1,147 +1,147 @@
 
-// const filterInput = document.getElementById("filter");
-// const toDoForm = document.getElementById("todo-form");
+const filterInput = document.getElementById("filter");
+const toDoForm = document.getElementById("todo-form");
 
-// // filterInput.onfocus = function(){
-// //     console.log("text");
-// // }
+// filterInput.onfocus = function(){
+//     console.log("text");
+// }
 
-// filterInput.addEventListener("focus",function(e){
-//     console.log(e);
-//     console.log(e.target);
-//     console.log(e.type);
-//     console.log(e.target.placeholder);
+filterInput.addEventListener("focus",function(e){
+    console.log(e);
+    console.log(e.target);
+    console.log(e.type);
+    console.log(e.target.placeholder);
     
-// });
+});
 
-// toDoForm.addEventListener("submit",submitForm);
-// function submitForm(e){
-//     console.log("Submit event 1");
-//     e.preventDefault();
-// }
+toDoForm.addEventListener("submit",submitForm);
+function submitForm(e){
+    console.log("Submit event 1");
+    e.preventDefault();
+}
 
-// // Keyboard Events
+// Keyboard Events
 
-// // Keypress
-// document.addEventListener("keypress",run);
-// function run(e){
-//     console.log(e.which);
+// Keypress
+document.addEventListener("keypress",run);
+function run(e){
+    console.log(e.which);
     
-// }
-// // keydown
-// document.addEventListener("keydown",run);
-// function run(e){
-//     console.log(e.key);
+}
+// keydown
+document.addEventListener("keydown",run);
+function run(e){
+    console.log(e.key);
     
-// }
-// // keyup
-// document.addEventListener("KEYUP",run);
-// function run(e){
-//     console.log(e.key);
+}
+// keyup
+document.addEventListener("KEYUP",run);
+function run(e){
+    console.log(e.key);
     
-// }
+}
 
-// const header = document.querySelector(".card-header");
-// const toDoInput = document.querySelector("#todo");
-// toDoInput.addEventListener("keyup",changeText);
-// function changeText(e){
-//     header.textContent = e.target.value;
-//     console.log(e.target.value);
-//     console.log(e.target);
-// }
+const header = document.querySelector(".card-header");
+const toDoInput = document.querySelector("#todo");
+toDoInput.addEventListener("keyup",changeText);
+function changeText(e){
+    header.textContent = e.target.value;
+    console.log(e.target.value);
+    console.log(e.target);
+}
 
 // Mouse Events
 
-// const cardBody = document.querySelectorAll(".card-body")[1];
-// const title = document.querySelector("#tasks-title");
+const cardBody = document.querySelectorAll(".card-body")[1];
+const title = document.querySelector("#tasks-title");
 // Click Events
 
-// title.addEventListener("click",clicked);
-// function clicked(e){
-//     console.loge.type;
-// }
+title.addEventListener("click",clicked);
+function clicked(e){
+    console.loge.type;
+}
 
-// // Dcouble Click Event
+// Dcouble Click Event
 
-// title.addEventListener("dblclick",doubleClicked);
-// function doubleClicked(e){
-//     console.log(e.type);
-// }
+title.addEventListener("dblclick",doubleClicked);
+function doubleClicked(e){
+    console.log(e.type);
+}
 
-// // Mouse Down Event
+// Mouse Down Event
 
-// title.addEventListener("mousedown",down);
-// function down(e){
-//     console.log(e.type);
-// }
+title.addEventListener("mousedown",down);
+function down(e){
+    console.log(e.type);
+}
 
-// // Mouse Up Event
+// Mouse Up Event
 
-// title.addEventListener("mouseup",up);
-// function up(e){
-//     console.log(e.type);
-// }
+title.addEventListener("mouseup",up);
+function up(e){
+    console.log(e.type);
+}
 
-// // Mouse Over Event
+// Mouse Over Event
 
-// title.addEventListener("mouseover",mouseOver);
-// function mouseOver(e){
-//     console.log(e.type);
-// }
+title.addEventListener("mouseover",mouseOver);
+function mouseOver(e){
+    console.log(e.type);
+}
 
-// // MouseOut Event
+// MouseOut Event
 
-// title.addEventListener("mouseout",mouseout);
-// function mouseout(e){
-//     console.log(e.type);
-// }
+title.addEventListener("mouseout",mouseout);
+function mouseout(e){
+    console.log(e.type);
+}
 
-// // Mouse enter ve mouse leave
+// Mouse enter ve mouse leave
 
-// title.addEventListener("mouseleave",mouseleave);
-// function mouseleave(e){
-//     console.log(e.type);
-// }
+title.addEventListener("mouseleave",mouseleave);
+function mouseleave(e){
+    console.log(e.type);
+}
 
 // Input Events
 
-// const filter = document.getElementById("filter");
-// //Focus
+const filter = document.getElementById("filter");
+//Focus
 
-// filter.addEventListener("focus",focus);
-// function focus(e){
-//     console.log(e.type);
-// }
+filter.addEventListener("focus",focus);
+function focus(e){
+    console.log(e.type);
+}
 
-// // Blur
+// Blur
 
-// filter.addEventListener("blur",blur);
-// function blur(e){
-//     console.log(e.type);
-// }
+filter.addEventListener("blur",blur);
+function blur(e){
+    console.log(e.type);
+}
 
-// // Paste
+// Paste
 
-// filter.addEventListener("paste",paste);
-// function paste(e){
-//     console.log(e.type);
-// }
+filter.addEventListener("paste",paste);
+function paste(e){
+    console.log(e.type);
+}
 
-// // Cut
+// Cut
 
-// filter.addEventListener("cut",cut);
-// function cut(e){
-//     console.log(e.type);
-// }
+filter.addEventListener("cut",cut);
+function cut(e){
+    console.log(e.type);
+}
 
-// // Select
+// Select
 
-// filter.addEventListener("select",select);
-// function select(e){
-//     console.log(e.type);
-// }
+filter.addEventListener("select",select);
+function select(e){
+    console.log(e.type);
+}
 
-//Event Delegation(Capturing)
+// Event Delegation(Capturing)
 
 const cardBody = document.querySelectorAll(".card-body")[1];
 cardBody.addEventListener("click",run);
